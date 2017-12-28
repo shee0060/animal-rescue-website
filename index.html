@@ -11,11 +11,11 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400|Source+Serif+Pro" rel="stylesheet">
 </head>
 <body>
-  <header class="grid grid-middle">
-    <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
+  <header class="grid pad-t">
+    <div class="gutter unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
       <a href="index.html">BIRCH HAVEN</a>
     </div>
-    <nav class="unit xs-1 s-1 m-2-3 l-2-3 xl-2-3">
+    <nav class="gutter text-right unit xs-1 s-1 m-2-3 l-2-3 xl-2-3">
       <ul class="list-group list-group-inline">
         <li class="gutter-1-2"><a href="index.html">Home</a></li>
         <li class="gutter-1-2"><a href="rescues.html">Rescues</a></li>
@@ -27,64 +27,77 @@
     </nav>
   </header>
 
-  <section>
-    <div class="grid">
-      <div class="embed embed-3by1 unit xs-1 s-1 m-1 l-2-3 xl-2-3">
-        <img class="embed-item img-flex" src="images/banner.jpg" alt="Dogs running across landscape">
-      </div>
-      <div class="gutter-1-2 push unit xs-1 s-1 m-1 l-1-3 xl-1-3">
-        <h1 class="pad-t">Birch Haven Rescue and Rehabilitation</h1>
-        <p>BHRR aims to help rehabilitate and rehome giant breeds of dogs.</p>
-        <p class="btn btn-ghost">ABOUT</p>
+  <section class="max-length">
+    <div>
+      <div>
+        <div class="embed embed-3by1">
+          <img class="embed-item img-flex" src="images/banner.jpg" alt="Dogs running across landscape">
+        </div>
+        <div class="gutter-1-2 push">
+          <h1 class="pad-t">Birch Haven Rescue and Rehabilitation</h1>
+          <p>BHRR aims to help rehabilitate and rehome giant breeds of dogs. We specialize in the care of Great Danes, and also provide services to equine needs.</p>
+          <div class="text-center">
+            <p class="white btn btn-ghost">ABOUT</p>
+          </div>
+        </div>
       </div>
     </div>
+
+    <main class="grid">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <div>
+          <img class="img-flex" src="images/running-danes.jpg" alt="#">
+        </div>
+        <div class="fundraising gutter-1-2 pad-b">
+          <h2 class="pad-t tera">Fundraising</h2>
+          <p>BHRR relies on fundraisers to have the ability to pay for vet bills and feed the dogs we rescue.</p>
+          <div class="text-center">
+            <p class="black btn btn-ghost">FUNDRAISING</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <div>
+          <img class="img-flex" src="images/bw-dane.jpg" alt="#">
+        </div>
+        <div class="rescues gutter-1-2 pad-b">
+          <h2 class="pad-t tera">Available Rescues</h2>
+          <p>Specialising in giant breed dogs, BHRR has a variety of loving dogs who are looking for forever homes.</p>
+          <div class="text-center">
+            <p class="white btn btn-ghost">RESCUES</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <div>
+          <img class="img-flex" src="images/bordeaux.jpg" alt="#">
+        </div>
+        <div class="adopt gutter-1-2 pad-b">
+          <h2 class="pad-t tera">Adoption</h2>
+          <p>Thinking about adopting? Fill out our Adoption Form to see if you could be the right fit for one of our rescues.</p>
+          <div class="text-center">
+            <p class="white btn btn-ghost">ADOPT</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <div>
+          <img class="img-flex" src="images/wolfhound.jpg" alt="#">
+        </div>
+        <div class="contact gutter-1-2 pad-b">
+          <h2 class="pad-t tera">Contact</h2>
+          <p>Have questions, comments or concerns? Contact us! You can find us on Facebook, Instagram, Twitter.</p>
+          <div class="text-center">
+            <p class="black btn btn-ghost">CONTACT</p>
+          </div>
+        </div>
+      </div>
+    </main>
   </section>
 
-  <main class="grid">
-    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-      <div>
-        <img class="img-flex" src="images/running-danes.jpg" alt="#">
-      </div>
-      <div class="gutter push">
-        <h1 class="pad-t">Fundraising</h1>
-        <p>BHRR relies on fundraisers to have the ability to pay for vet bills and feed the dogs we rescue.</p>
-        <p class="btn btn-ghost">FUNDRAISING</p>
-      </div>
-    </div>
-
-    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-      <div>
-        <img class="img-flex" src="images/bw-dane.jpg" alt="#">
-      </div>
-      <div class="gutter push">
-        <h1 class="pad-t">Available Rescues</h1>
-        <p>Specialising in giant breed dogs, BHRR has a variety of loving dogs who are looking for forever homes.</p>
-        <p class="btn btn-ghost">RESCUES</p>
-      </div>
-    </div>
-
-    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-      <div>
-        <img class="img-flex" src="images/bordeaux.jpg" alt="#">
-      </div>
-      <div class="gutter push">
-        <h1 class="pad-t">Adoption</h1>
-        <p>Thinking about adopting? Fill out our Adoption Form to see if you could be the right fit for one of our rescues.</p>
-        <p class="btn btn-ghost">ADOPT</p>
-      </div>
-    </div>
-
-    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-      <div>
-        <img class="img-flex" src="images/wolfhound.jpg" alt="#">
-      </div>
-      <div class="gutter push">
-        <h1 class="pad-t">Contact</h1>
-        <p>Have questions, comments or concerns? Contact us!</p>
-        <p class="btn btn-ghost">CONTACT</p>
-      </div>
-    </div>
-  </main>
   <footer>
   </footer>
 </body>
