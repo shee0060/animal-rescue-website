@@ -2,7 +2,12 @@ html {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1 {
+body {
+  background-color: #efefef;
+}
+
+h1,
+h2 {
   font-family: 'Source Serif Pro', serif;
 }
 
@@ -21,9 +26,10 @@ a {
   color: #fff;
 }
 
+.about,
 .rescues,
 .adopt {
-  background-color: #fefefe;
+  background-color: #fff;
   color: #000;
 }
 
