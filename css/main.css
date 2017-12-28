@@ -2,6 +2,10 @@ html {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+a:focus {
+  outline: 3px solid #60daef;
+}
+
 body {
   background-color: #efefef;
 }
@@ -20,15 +24,15 @@ a {
   color: #fff;
 }
 
-.fundraising,
-.contact {
+.fundraising-content,
+.contact-content {
   background-color: #000;
   color: #fff;
 }
 
-.about,
-.rescues,
-.adopt {
+.about-content,
+.rescues-content,
+.adopt-content {
   background-color: #fff;
   color: #000;
 }
