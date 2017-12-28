@@ -16,11 +16,11 @@
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
 
-  <header class="grid pad-t">
+  <header class="grid pad-t" role="banner">
     <div class="gutter unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
       <a href="index.html">BIRCH HAVEN</a>
     </div>
-    <nav class="gutter text-right unit xs-1 s-1 m-2-3 l-2-3 xl-2-3">
+    <nav class="nav gutter text-right unit xs-1 s-1 m-2-3 l-2-3 xl-2-3" id="nav" role="navigation" tabindex="0">
       <ul class="list-group list-group-inline">
         <li class="gutter-1-2"><a href="index.html">Home</a></li>
         <li class="gutter-1-2"><a href="rescues.html">Rescues</a></li>
@@ -30,39 +30,42 @@
         <li class="gutter-1-2"><a href="#">About</a></li>
       </ul>
     </nav>
-  </header>
 
-  <main class="max-length">
-    <div>
-      <div class="embed embed-16by9">
-        <img class="embed-item img-flex" src="images/banner.jpg" alt="Dogs running across landscape">
-      </div>
-      <div class="about gutter-1-2 pad-b">
-        <h1 class="pad-t zetta">Zero</h1>
-        <div class="grid">
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-            <p>Breed: Great Dane mix</p>
-            <p>Age: 4</p>
-            <p>Weight: 100lbs</p>
-            <p>Colour: White</p>
-            <p>Eyes: Brown</p>
-          </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-            <p>Zero is a friendly, loyal Great Dane mix. She is house trained and knows many obedience tricks already! Zero does not mind cats or other dogs in the house, but she is not fond of small children. She is a giant, cuddly, lovable girl and is ready to find her forever home.</p>
-          </div>
+    <div class="about unit xs-1 s-1 m-1 l-1 xl-1" id="about">
+      <div class="grid">
+        <div class="embed embed-16by9 unit xs-1 s-1 m-1 l-2-3 xl-2-3">
+          <img class="embed-item" src="images/banner.jpg" alt="Dogs running across landscape">
         </div>
-        <div class="text-center">
-          <p class="white btn btn-ghost">PROFILE</p>
+        <div class="about-content gutter-1-2 pad-b unit xs-1 s-1 m-1 l-1-3 xl-1-3">
+          <h1 class="pad-t zetta">Zero</h1>
+          <div class="grid">
+            <div class="unit xs-1 s-1 m-1-2 l-1 xl-1-2">
+              <p>Breed: Great Dane mix</p>
+              <p>Age: 4</p>
+              <p>Weight: 100lbs</p>
+              <p>Colour: White</p>
+              <p>Eyes: Brown</p>
+            </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1 xl-1-2">
+              <p>Zero is a friendly, loyal Great Dane mix. She is house trained and knows many obedience tricks already! Zero does not mind cats or other dogs in the house, but she is not fond of small children. She is a giant, cuddly, lovable girl and is ready to find her forever home.</p>
+            </div>
+          </div>
+          <div class="text-center">
+            <p class="white btn btn-ghost">PROFILE</p>
+          </div>
         </div>
       </div>
     </div>
+  </header>
+
+  <main class="max-length" role="main" id="main" tabindex="0">
 
     <div class="grid">
       <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <div>
           <img class="img-flex" src="images/bw-dane.jpg" alt="#">
         </div>
-        <div class="fundraising gutter-1-2 pad-b">
+        <div class="fundraising-content gutter-1-2 pad-b">
           <h2 class="pad-t tera">Max</h2>
           <p>Breed: Great Dane</p>
           <p>Age: 5</p>
@@ -80,7 +83,7 @@
         <div>
           <img class="img-flex" src="images/wolfhound.jpg" alt="#">
         </div>
-        <div class="rescues gutter-1-2 pad-b">
+        <div class="rescues-content gutter-1-2 pad-b">
           <h2 class="pad-t tera">Wanda</h2>
           <p>Breed: Irish Wolfhound</p>
           <p>Age: 7</p>
@@ -98,7 +101,7 @@
         <div>
           <img class="img-flex" src="images/bordeaux.jpg" alt="#">
         </div>
-        <div class="adopt gutter-1-2 pad-b">
+        <div class="adopt-content gutter-1-2 pad-b">
           <h2 class="pad-t tera">Fido</h2>
           <p>Breed: Dogue de Bordeaux</p>
           <p>Age: 1</p>
@@ -116,7 +119,7 @@
         <div>
           <img class="img-flex" src="images/wolfhound.jpg" alt="#">
         </div>
-        <div class="contact gutter-1-2 pad-b">
+        <div class="contact-content gutter-1-2 pad-b">
           <h2 class="pad-t tera">Dwight</h2>
           <p>Breed: Great Dane</p>
           <p>Age: 6</p>
@@ -132,7 +135,7 @@
     </div>
   </main>
 
-  <footer>
+  <footer class="footer" role="contentinfo">
   </footer>
 </body>
 </html>
