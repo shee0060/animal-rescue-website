@@ -46,7 +46,7 @@
               <p>Adopting a dog is a serious commitment. Read each question carefully and answer honestly to ensure the perfect match.</p>
             </div>
             <div class="gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-              <p>If there are any questions or concerned, please contact us through email or on social media.</p>
+              <p>If there are any questions or concerns, please contact us through email or on social media.</p>
             </div>
           </div>
         </div>
@@ -55,35 +55,75 @@
 
     <section>
       <form class="gutter">
-      <label for="first-name">First Name</label>
-      <input type="first-name" id="first-name">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="first-name">First Name</label>
+        <input type="name" id="first-name">
 
-      <label for="last-name">Last Name</label>
-      <input type="last-name" id="last-name">
+        <label for="last-name">Last Name</label>
+        <input type="name" id="last-name">
 
-      <label for="address">Address</label>
-      <input type="textarea" id="address">
+        <label for="address">Address</label>
+        <input id="address">
 
-      <label for="province">Province</label>
-      <select id="province">
-        <optgroup label="Canada">
-          <option>Alberta</option>
-          <option>British Columbia</option>
-          <option>Manitoba</option>
-          <option>New Brunswick</option>
-          <option>Newfoundland</option>
-          <option>NWT</option>
-          <option>Nova Scotia</option>
-          <option>Nunavut</option>
-          <option>Ontario</option>
-          <option>Prince Edward Island</option>
-          <option>Quebec</option>
-          <option>Saskatchewan</option>
-          <option>Yukon</option>
-      </select>
+        <label for="city">City</label>
+        <input id="city">
 
-      <label for="email">E-mail address</label>
-      <input type="email" id="email">
+        <label for="province">Province</label>
+        <select id="province">
+          <optgroup label="Canada">
+            <option>Alberta</option>
+            <option>British Columbia</option>
+            <option>Manitoba</option>
+            <option>New Brunswick</option>
+            <option>Newfoundland</option>
+            <option>NWT</option>
+            <option>Nova Scotia</option>
+            <option>Nunavut</option>
+            <option>Ontario</option>
+            <option>Prince Edward Island</option>
+            <option>Quebec</option>
+            <option>Saskatchewan</option>
+            <option>Yukon</option>
+        </select>
+
+        <label for="email">E-mail address</label>
+        <input type="email" id="email">
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone">
+      </fieldset>
+
+      <fieldset>
+        <legend>Preferences</legend>
+        <div class="push">
+          <label for="breed">Breed</label>
+          <input class="push" id="breed">
+
+          <label for="colour">Colour</label>
+          <input id="colour">
+        </div>
+        <div class="push">
+          <legend class="push">Age</legend>
+          <input type="radio" id="puppy" name="age">
+          <label for="puppy">Puppy</label>
+
+          <input type="radio" id="adult" name="age">
+          <label for="adult">Adult (1-8 yrs)</label>
+
+          <input type="radio" id="senior" name="age">
+          <label for="senior">Senior (9+)</label>
+        </div>
+        <div>
+          <legend class="push">Gender</legend>
+          <input type="radio" id="male" name="gender">
+          <label for="male">Male</label>
+
+          <input type="radio" id="female" name="gender">
+          <label for="female">Female</label>
+        </div>
+      </fieldset>
+
       </form>
     </section>
   </main>
