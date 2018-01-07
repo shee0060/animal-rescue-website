@@ -55,76 +55,80 @@
 
     <section>
       <form class="gutter">
-      <fieldset>
-        <legend>Personal Information</legend>
-        <label for="first-name">First Name</label>
-        <input id="first-name" required>
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="first-name">First Name</label>
+          <input id="first-name" required>
 
-        <label for="last-name">Last Name</label>
-        <input id="last-name" required>
+          <label for="last-name">Last Name</label>
+          <input id="last-name" required>
 
-        <label for="address">Address</label>
-        <input id="address" required>
+          <label for="address">Address</label>
+          <input id="address" required>
 
-        <label for="city">City</label>
-        <input id="city" required>
+          <label for="city">City</label>
+          <input id="city" required>
 
-        <label for="province">Province</label>
-        <select id="province" required>
-          <optgroup label="Canada">
-            <option>Alberta</option>
-            <option>British Columbia</option>
-            <option>Manitoba</option>
-            <option>New Brunswick</option>
-            <option>Newfoundland</option>
-            <option>NWT</option>
-            <option>Nova Scotia</option>
-            <option>Nunavut</option>
-            <option>Ontario</option>
-            <option>Prince Edward Island</option>
-            <option>Quebec</option>
-            <option>Saskatchewan</option>
-            <option>Yukon</option>
-        </select>
+          <label for="province">Province</label>
+          <select id="province">
+            <optgroup label="Canada">
+              <option>Alberta</option>
+              <option>British Columbia</option>
+              <option>Manitoba</option>
+              <option>New Brunswick</option>
+              <option>Newfoundland</option>
+              <option>NWT</option>
+              <option>Nova Scotia</option>
+              <option>Nunavut</option>
+              <option>Ontario</option>
+              <option>Prince Edward Island</option>
+              <option>Quebec</option>
+              <option>Saskatchewan</option>
+              <option>Yukon</option>
+            </optgroup>
+          </select>
 
-        <label for="email">E-mail address</label>
-        <input type="email" id="email" required>
+          <label for="email">E-mail address</label>
+          <input type="email" id="email" required>
 
-        <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" required>
-      </fieldset>
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" required>
+        </fieldset>
 
-      <fieldset>
-        <legend>Preferences</legend>
-        <div class="push">
-          <label for="breed">Breed</label>
-          <input class="push" id="breed">
+        <fieldset>
+          <legend>Preferences</legend>
+          <div class="push">
+            <label for="breed">Breed</label>
+            <input class="push" id="breed">
 
-          <label for="colour">Colour</label>
-          <input id="colour">
-        </div>
-        <div class="push">
-          <label for="age" class="push">Age</label>
-          <input type="radio" id="puppy" name="age">
-          <label for="puppy">Puppy</label>
+            <label for="colour">Colour</label>
+            <input id="colour">
+          </div>
+          <fieldset class="push">
+            <legend>Age</legend>
+            <input type="radio" id="puppy" name="age">
+            <label for="puppy" class="gutter">Puppy</label>
 
-          <input type="radio" id="adult" name="age">
-          <label for="adult">Adult (1-8 yrs)</label>
+            <input type="radio" id="adult" name="age">
+            <label for="adult" class="gutter">Adult (1-8 yrs)</label>
 
-          <input type="radio" id="senior" name="age">
-          <label for="senior">Senior (9+)</label>
-        </div>
-        <div>
-          <label for="gender" class="push">Gender</label>
-          <input type="radio" id="male" name="gender">
-          <label for="male">Male</label>
+            <input type="radio" id="senior" name="age">
+            <label for="senior" class="gutter">Senior (9+)</label>
+          </fieldset>
+          <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" id="male" name="gender">
+            <label for="male" class="gutter">Male</label>
 
-          <input type="radio" id="female" name="gender">
-          <label for="female">Female</label>
-        </div>
-      </fieldset>
-
+            <input type="radio" id="female" name="gender">
+            <label for="female" class="gutter">Female</label>
+          </fieldset>
+        </fieldset>
       </form>
+
+      <div class="text-center">
+        <p class="white btn btn-ghost">SUBMIT</p>
+      </div>
     </section>
   </main>
   <footer class="footer" role="contentinfo" tabindex="0">

@@ -24,6 +24,10 @@ a:focus {
   outline: 3px solid #60daef;
 }
 
+nav a:hover {
+  color: #60daef;
+}
+
 .fundraising-content,
 .adopt-content {
   background-color: #000;
