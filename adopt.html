@@ -39,7 +39,7 @@
         <div class="embed embed-16by9">
           <img class="embed-item img-flex" src="images/banner.jpg" alt="Dogs running across landscape">
         </div>
-        <div class="about gutter-1-2 pad-b">
+        <div class="about-content gutter-1-2 pad-b">
           <h1 class="pad-t text-center">Adoption Form</h1>
           <div class="grid">
             <div class="gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
@@ -54,7 +54,7 @@
     </article>
 
     <section>
-      <form class="gutter">
+      <form class="gutter" action="thanks.html" method="post">
         <fieldset>
           <legend>Personal Information</legend>
           <label for="first-name">First Name</label>
@@ -104,6 +104,7 @@
             <label for="colour">Colour</label>
             <input id="colour">
           </div>
+
           <fieldset class="push">
             <legend>Age</legend>
             <input type="radio" id="puppy" name="age">
@@ -115,6 +116,7 @@
             <input type="radio" id="senior" name="age">
             <label for="senior" class="gutter">Senior (9+)</label>
           </fieldset>
+
           <fieldset>
             <legend>Gender</legend>
             <input type="radio" id="male" name="gender">
@@ -124,11 +126,10 @@
             <label for="female" class="gutter">Female</label>
           </fieldset>
         </fieldset>
+        <div class="text-center">
+          <p class="white btn btn-ghost">SUBMIT</p>
+        </div>
       </form>
-
-      <div class="text-center">
-        <p class="white btn btn-ghost">SUBMIT</p>
-      </div>
     </section>
   </main>
   <footer class="footer" role="contentinfo" tabindex="0">
