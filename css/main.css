@@ -79,3 +79,7 @@ form {
   background-color: #000;
   color: #fff;
 }
+
+.current {
+  color: #60daef
+}
