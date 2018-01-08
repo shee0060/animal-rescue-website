@@ -54,80 +54,83 @@
     </article>
 
     <section>
-      <form class="gutter pad-t" action="thanks.html" method="post">
-        <fieldset>
-          <legend>Personal Information</legend>
-          <label class="pad-t-1-2" for="first-name">First Name</label>
-          <input id="first-name" required>
-
-          <label class="pad-t-1-2" for="last-name">Last Name</label>
-          <input id="last-name" required>
-
-          <label class="pad-t-1-2" for="address">Address</label>
-          <input id="address" required>
-
-          <label class="pad-t-1-2" for="city">City</label>
-          <input id="city" required>
-
-          <label class="pad-t-1-2" for="province">Province</label>
-          <select id="province">
-            <optgroup label="Canada">
-              <option>Alberta</option>
-              <option>British Columbia</option>
-              <option>Manitoba</option>
-              <option>New Brunswick</option>
-              <option>Newfoundland</option>
-              <option>NWT</option>
-              <option>Nova Scotia</option>
-              <option>Nunavut</option>
-              <option>Ontario</option>
-              <option>Prince Edward Island</option>
-              <option>Quebec</option>
-              <option>Saskatchewan</option>
-              <option>Yukon</option>
-            </optgroup>
-          </select>
-
-          <label class="pad-t-1-2" for="email">E-mail address</label>
-          <input type="email" id="email" required>
-
-          <label class="pad-t-1-2" for="phone">Phone Number</label>
-          <input type="tel" id="phone" required>
-        </fieldset>
-
-        <fieldset>
-          <legend>Preferences</legend>
-          <div class="push">
-            <label for="breed">Breed</label>
-            <input id="breed">
-
-            <label class="pad-t-1-2" for="colour">Colour</label>
-            <input id="colour">
-          </div>
-
-          <fieldset class="push">
-            <legend>Age</legend>
-            <input type="radio" id="puppy" name="age">
-            <label for="puppy" class="gutter">Puppy</label>
-
-            <input type="radio" id="adult" name="age">
-            <label for="adult" class="gutter">Adult (1-8 yrs)</label>
-
-            <input type="radio" id="senior" name="age">
-            <label for="senior" class="gutter">Senior (9+)</label>
-          </fieldset>
-
+      <form class="grid gutter pad-t" action="thanks.html" method="post">
+        <div class="gutter unit xs-1 s-1 m-1 l-1-2 xl-1-2">
           <fieldset>
-            <legend>Gender</legend>
-            <input type="radio" id="male" name="gender">
-            <label for="male" class="gutter">Male</label>
+            <legend>Personal Information</legend>
+            <label class="pad-t-1-2" for="first-name">First Name</label>
+            <input id="first-name" required>
 
-            <input type="radio" id="female" name="gender">
-            <label for="female" class="gutter">Female</label>
+            <label class="pad-t-1-2" for="last-name">Last Name</label>
+            <input id="last-name" required>
+
+            <label class="pad-t-1-2" for="address">Address</label>
+            <input id="address" required>
+
+            <label class="pad-t-1-2" for="city">City</label>
+            <input id="city" required>
+
+            <label class="pad-t-1-2" for="province">Province</label>
+            <select id="province">
+              <optgroup label="Canada">
+                <option>Alberta</option>
+                <option>British Columbia</option>
+                <option>Manitoba</option>
+                <option>New Brunswick</option>
+                <option>Newfoundland</option>
+                <option>NWT</option>
+                <option>Nova Scotia</option>
+                <option>Nunavut</option>
+                <option>Ontario</option>
+                <option>Prince Edward Island</option>
+                <option>Quebec</option>
+                <option>Saskatchewan</option>
+                <option>Yukon</option>
+              </optgroup>
+            </select>
+
+            <label class="pad-t-1-2" for="email">E-mail address</label>
+            <input type="email" id="email" required>
+
+            <label class="pad-t-1-2" for="phone">Phone Number</label>
+            <input type="tel" id="phone" required>
           </fieldset>
-        </fieldset>
-        <div class="text-center pad-b">
-          <a href="adopt.html" class="white btn btn-ghost">SUBMIT</a>
+        </div>
+        <div class="gutter unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+          <fieldset>
+            <legend>Preferences</legend>
+            <div class="push">
+              <label for="breed">Breed</label>
+              <input id="breed">
+
+              <label class="pad-t-1-2" for="colour">Colour</label>
+              <input id="colour">
+            </div>
+
+            <fieldset class="push">
+              <legend>Age</legend>
+              <input type="radio" id="puppy" name="age">
+              <label for="puppy" class="gutter-1-2">Puppy</label>
+
+              <input type="radio" id="adult" name="age">
+              <label for="adult" class="gutter-1-2">Adult (1-8 yrs)</label>
+
+              <input type="radio" id="senior" name="age">
+              <label for="senior" class="gutter-1-2">Senior (9+)</label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Gender</legend>
+              <input type="radio" id="male" name="gender">
+              <label for="male" class="gutter">Male</label>
+
+              <input type="radio" id="female" name="gender">
+              <label for="female" class="gutter">Female</label>
+            </fieldset>
+          </fieldset>
+          <div class="text-center pad-b">
+            <a href="adopt.html" class="white btn btn-ghost">SUBMIT</a>
+          </div>
         </div>
       </form>
     </section>
