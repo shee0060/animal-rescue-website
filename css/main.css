@@ -34,13 +34,13 @@ nav a:hover {
   color: #60daef;
 }
 
+.about-content,
 .fundraising-content,
 .adopt-content {
   background-color: #000;
   color: #fff;
 }
 
-.about-content,
 .rescues-content,
 .contact-content {
   background-color: #fff;
