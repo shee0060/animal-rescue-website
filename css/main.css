@@ -17,7 +17,7 @@ header {
 }
 
 main {
-  background-color: #fff;
+  background-color: #b3f4ff;
   background-image: url("../images/bones.svg");
   background-repeat: repeat;
 }
@@ -49,8 +49,8 @@ nav a:hover {
 
 .white {
   color: #000;
-  background-color: #f78579;
-  border: 3px solid #f78579;
+  background-color: #60daef;
+  border: 3px solid #60daef;
 }
 
 .black {
