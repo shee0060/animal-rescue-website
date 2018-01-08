@@ -52,3 +52,14 @@ nav a:hover {
   background-color: #60daef;
   border: 3px solid #60daef;
 }
+
+.white:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.black:hover {
+  color: #000;
+  background-color: #fff;
+  border: 3px solid #fff;
+}
